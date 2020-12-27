@@ -33,7 +33,7 @@
     <tr>
         <td>/id</td>
         <td>put</td>
-        <td>Create Data: data = {name_product: str, price: int}</td>
+        <td>Edit Data: data = {name_product: str, price: int}</td>
     </tr>
 
 </table>
