@@ -1,10 +1,10 @@
-pip install uvicorn
-pip install fastapi
+<p>pip install uvicorn</p>
+<p>pip install fastapi</p>
 
-uvicorn main:app --reload
+<p>uvicorn main:app --reload</p>
 
 
-<!-- <table> 
+<table> 
     <tr>
         <th>url</th>
         <th>method</th>
@@ -36,4 +36,4 @@ uvicorn main:app --reload
         <td>Create Data: data = {name_product: str, price: int}</td>
     </tr>
 
-</table> -->
+</table>
