@@ -38,6 +38,14 @@ class Database:
         
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.get('/')
 def index(): 
     data =Database().all_data
